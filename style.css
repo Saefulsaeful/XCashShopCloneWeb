@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.header {
+    background-image: url(download.jpeg);
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.promo-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.promo-section .promo-item {
+    width: 10%;
+    margin: 0 10px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promo-section .promo-item img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.promo-section .promo-item .promo-text {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .feature {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 18px;
+            font-weight : bold;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            line-height: 1.5;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .navbar {
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
